@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+<h1>Список задач (всего: <span th:text="${neuterCount}"> </span>)</h1>
+</body>
+<div id="neuter-form">
+    <div th:each="neuter : ${neuter}">
+        <a href="#" class="book-link" th:attr="data-id=${neuter.id}" th:text="${neuter.toDo}"></a>
+    </div>
+</div>
+</html>
