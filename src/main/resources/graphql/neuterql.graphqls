@@ -1,0 +1,11 @@
+schema {
+    query: EntryPoints
+}
+type EntryPoints {
+    getNeuters(id: ID): [Neuter]
+}
+type Neuter {
+    id: ID!,
+    name: String,
+    date: Int
+}
