@@ -1,14 +1,14 @@
-package service.impl;
+package main.service.impl;
 
-import dto.NeuterDto;
-import entity.Neuter;
+import main.dto.NeuterDto;
+import main.model.Neuter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import repository.NeuterRepository;
-import service.NeuterService;
-import utils.MappingUtils;
+import main.repository.NeuterRepository;
+import main.service.NeuterService;
+import main.utils.MappingUtils;
 
 import java.util.ArrayList;
 import java.util.List;

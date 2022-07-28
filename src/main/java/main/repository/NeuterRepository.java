@@ -1,6 +1,6 @@
-package repository;
+package main.repository;
 
-import entity.Neuter;
+import main.model.Neuter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

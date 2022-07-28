@@ -1,6 +1,6 @@
-package service;
+package main.service;
 
-import entity.Neuter;
+import main.model.Neuter;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 
