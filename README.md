@@ -16,6 +16,13 @@ The project was tested using Postman and GraphiQL.
 GraphQL have the schema structure
 <div><img src="https://github.com/coollappsus/ToDoList/blob/main/assets/schema.png?raw=true" alt="schema"></div>
 
+<h3>GraphQL file paths</h3>
+<ul>
+    <li><a href="https://github.com/coollappsus/ToDoList/blob/bfc747b72641cf9c047f07f8512640a90cd239f6/src/main/resources/graphql/neuterql.graphqls"> GraphQL schema</a></li>
+    <li><a href="https://github.com/coollappsus/ToDoList/blob/bfc747b72641cf9c047f07f8512640a90cd239f6/src/main/java/main/controllers/MutationGraphQL.java"> GraphQL Mutation class</a></li>
+    <li><a href="https://github.com/coollappsus/ToDoList/blob/bfc747b72641cf9c047f07f8512640a90cd239f6/src/main/java/main/controllers/QueryGraphQL.java"> GraphQL Query class</a></li>
+</ul>
+
 <h1>Technologies</h1>
 <ul>
     <li>Java - version 17</li>
