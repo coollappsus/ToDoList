@@ -14,7 +14,7 @@ The project was tested using Postman and GraphiQL.
 <h1>About the project</h1>
 <h3>GraphQL schema</h3>
 GraphQL have the schema structure
-<div><img src="https://github.com/coollappsus/ToDoList/blob/main/assets/schema.png?raw=true" alt="schema"></div>
+<div><img src="https://github.com/coollappsus/ToDoList/blob/main/assets/schema.png?raw=true" width="320" height="400" alt="schema"></div>
 
 <h3>GraphQL file paths</h3>
 <ul>
