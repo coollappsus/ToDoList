@@ -12,7 +12,7 @@ public class MappingUtils {
         NeuterDto dto = new NeuterDto();
         dto.setId(entity.getId());
         dto.setName(entity.getName());
-        dto.setCreateDate(entity.getDate());
+        dto.setDate(entity.getDate());
         return dto;
     }
     //из main.dto в entity
@@ -20,7 +20,7 @@ public class MappingUtils {
         Neuter entity = new Neuter();
         entity.setId(dto.getId());
         entity.setName(dto.getName());
-        entity.setDate(dto.getCreateDate());
+        entity.setDate(dto.getDate());
         return entity;
     }
 }

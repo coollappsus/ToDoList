@@ -1,19 +1,17 @@
 package main.dto;
 
-import java.util.Date;
-
 public class NeuterDto {
 
     private int id;
     private String name;
-    private Long createDate;
+    private Long date;
 
     public NeuterDto() {
     }
 
-    public NeuterDto(String name, Long createDate) {
+    public NeuterDto(String name, Long date) {
         this.name = name;
-        this.createDate = createDate;
+        this.date = date;
     }
 
     public int getId() {
@@ -32,11 +30,11 @@ public class NeuterDto {
         this.name = name;
     }
 
-    public Long getCreateDate() {
-        return createDate;
+    public Long getDate() {
+        return date;
     }
 
-    public void setCreateDate(Long createDate) {
-        this.createDate = createDate;
+    public void setDate(Long date) {
+        this.date = date;
     }
 }

@@ -1,11 +1,18 @@
 schema {
-    query: EntryPoints
+    query: EntryPoints,
+    mutation: Mutations
 }
 type EntryPoints {
-    getNeuters(id: ID): [Neuter]
+    getNeuters: [Neuter]
+    getNeuter(id: ID!): Neuter
 }
 type Neuter {
     id: ID!,
     name: String,
-    date: Int
+    date: String
+}
+type Mutations {
+    addNeuter(name: String): Neuter
+    deleteNeuter(id: ID): ID
+    deleteNeuters: Boolean
 }
